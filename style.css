@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+     p{
+         text-align: justify;
+         /*margin-left: 300px;
+        margin-right: 400px;
+        margin-top:50px;
+        margin-bottom:90px
+        margin:100px 50px 30*/
+        
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-top : 2px dotted red;
+            border-radius: 50%;
+
+
+            
+        }
+     body{
+         background-color: blue;
+     }
+        
+     
