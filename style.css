@@ -1,28 +1,32 @@
-h1{
-    color: red;
-    text-align: center;
-    font-size: 30px;
+.header{
+     background-color: none;
+     color: white;
+     text-align: center;
 }
-     p{
-         text-align: justify;
-         /*margin-left: 300px;
-        margin-right: 400px;
-        margin-top:50px;
-        margin-bottom:90px
-        margin:100px 50px 30*/
-        
-        }
-        img{
-            width: 200px;
-            height: 200px;
-            border-top : 2px dotted red;
-            border-radius: 50%;
-
-
-            
-        }
-     body{
-         background-color: blue;
-     }
-        
-     
+.header p{
+    font-size: 40px;
+}
+#social{
+    background-color: aqua;
+}
+#social ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(images/background\ images.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.header img{
+    width: 130px;
+    height: 130px;
+}
